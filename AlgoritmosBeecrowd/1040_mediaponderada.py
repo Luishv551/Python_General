@@ -1,5 +1,5 @@
 
-A,B,C,D = map(float, input().slipt())
+A,B,C,D = map(float, input().split())
 
 media = ((A * 2) + (B * 3) + (C * 4) + (D * 1)) / 10
 print(f"Media: {media:.1f}")
