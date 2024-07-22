@@ -47,3 +47,32 @@ for _ in range(n_partidas):
     resultado = determinar_vencedor(rajesh, sheldon)
 
     print(resultado)
+
+"""
+
+# REGRAS DA VITORIA
+regras_vitoria = {
+    "tesoura": ["papel", "lagarto"],
+    "papel": ["pedra", "spock"],
+    "pedra": ["lagarto", "tesoura"],
+    "lagarto": ["spock", "papel"],
+    "spock": ["tesoura", "pedra"]
+}
+
+def determinar_vencedor(rajesh, sheldon):
+    if rajesh == sheldon:
+        return "empate"
+    elif sheldon in regras_vitoria[rajesh]:
+        return "rajesh"
+    else:
+        return "sheldon"
+
+n_partidas = int(input())
+
+for _ in range(n_partidas):
+    rajesh, sheldon = input().split()
+    resultado = determinar_vencedor(rajesh, sheldon)
+    print(resultado)
+
+
+"""
