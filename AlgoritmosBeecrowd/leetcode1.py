@@ -6,7 +6,7 @@ target = 22
 for i in range(len(nums)):
 
   #para cada elemento apos o elemento i
-  for j in range(i+1, len(nums)):
+  for j in range(i+1, len(nums)): # o len fica sempre fixo como a lista inteira ou ele vai diminuindo conforme a iteração?
 
     if nums[i] + nums[j] == target:
       
