@@ -13,23 +13,14 @@ def hamekame(entrada):
     qtd_as_antes = antes_mek.count('a')
     qtd_as_depois = depois_mek.count('a')
     
-    divisao = qtd_as_antes / qtd_as_depois
+    # multiplicando a quantidade de 'a's antes e depois de "mek"
+    multiplicacao = qtd_as_antes * qtd_as_depois
     
-    total_as = entrada.count('a')
-
-    if divisao > 1:
-
-        adicao = math.ceil(total_as + divisao)
-
-    else:
-
-        adicao = int(divisao)
-    
-    resultado = "k" + "a" * adicao
+    resultado = "k" + "a" * multiplicacao
     print(resultado)
 
 quantidade_casos = int(input())
 
-for _ in range(quantidade_casos):
+for caso in range(quantidade_casos):
     entrada = input()
     hamekame(entrada)
