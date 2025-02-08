@@ -1,0 +1,30 @@
+cadastro_fiis
+Contém informações cadastrais dos Fundos de Investimento Imobiliário (FIIs), incluindo:
+
+Ticker: Código de negociação do FII na B3.
+CNPJ: Identificador único do fundo no sistema da Receita Federal.
+Classificações específicas: Categorizações que podem incluir segmento do fundo, tipo de gestão, entre outros atributos relevantes.
+
+
+carteira_ifix
+Registra a composição diária do índice IFIX, que reflete o desempenho dos principais FIIs negociados na B3.
+
+Indica quais FIIs fazem parte do IFIX em cada dia do ano.
+Pode incluir informações como peso de cada fundo no índice.
+
+
+dividendos_fiis
+Lista todos os dividendos divulgados na plataforma FundsNet e pagos pelos FIIs ao longo de 2024.
+
+Inclui datas relevantes, como:
+Data-base (DataCom): Dia em que o investidor precisa estar posicionado para ter direito ao dividendo.
+Data de pagamento: Quando o dividendo foi efetivamente pago.
+Contém também o valor distribuído por cota.
+
+
+negociacao_fiis
+Contém os dados diários de negociação de cada FII Listado na B3.
+
+Informações incluem:
+Volume negociado em cada pregão.
+Preço de fechamento.
