@@ -44,7 +44,10 @@ python Resolucoes/Validacao_Desafio01.py
 ```
 
 ## Resultados
-- O arquivo consolidado será salvo como `arquivo_final.xlsx`
+- O arquivo consolidado será salvo como `arquivo_final.xlsx` no caminho
+ 
+ case-multiestrategia\dados\00_raw_data\Desafio 01
+ 
 - Logs de processamento serão gerados em:
   - `processamento.log` (consolidação)
   - `validacao.log` (validação)
