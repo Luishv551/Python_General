@@ -53,6 +53,3 @@ python Resolucoes/Validacao_Desafio01.py
 - Os arquivos CSV de entrada devem seguir o padrão de nomenclatura: `IFIXDia_DD-MM-YYYY.csv`
 - O script trata automaticamente valores percentuais e remove linhas de totais
 - Logs detalhados são gerados para rastreamento de possíveis erros
-
-## Suporte
-Para problemas ou dúvidas, abra uma issue no repositório do projeto.

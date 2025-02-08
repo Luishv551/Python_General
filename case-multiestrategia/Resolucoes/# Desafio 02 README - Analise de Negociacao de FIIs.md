@@ -66,6 +66,3 @@ print(f"Dia com maior volume: {max_daily_date}")
 - Certifique-se de que os arquivos de dados estejam no formato correto.
 - A execução do projeto depende dos caminhos dos arquivos estarem configurados corretamente.
 
-## Suporte
-Para dúvidas ou problemas, entre em contato pelo e-mail: suporte@exemplo.com
-
