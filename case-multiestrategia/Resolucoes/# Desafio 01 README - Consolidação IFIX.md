@@ -49,6 +49,14 @@ python Resolucoes/Validacao_Desafio01.py
   - `processamento.log` (consolidação)
   - `validacao.log` (validação)
 
+- O resultado final do Desafio01 com as etapas:
+
+  1 - Utilize o arquivo Excel dados/01_cleaned_data/cadastro_fiis.xlsx para adicionar uma coluna de CNPJ ao dataframe consolidado.
+  
+  2 - O resultado final deve corresponder ao arquivo dados/01_cleaned_data/carteira_ifix.xlsx.
+
+  Está na pasta em case-multiestrategia\dados\00_raw_data\Desafio 01 e nomeado como Resultado_Final_Desafio01
+
 ## Notas
 - Os arquivos CSV de entrada devem seguir o padrão de nomenclatura: `IFIXDia_DD-MM-YYYY.csv`
 - O script trata automaticamente valores percentuais e remove linhas de totais
