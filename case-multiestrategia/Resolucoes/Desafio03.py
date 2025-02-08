@@ -10,8 +10,8 @@ st.set_page_config(page_title="FII Dashboard", layout="wide")
 @st.cache_data
 def load_data():
     # URLs dos arquivos raw no GitHub
-    neg_url = "https://raw.githubusercontent.com/Luishv551/Python_General/main/case-multiestrategia/dados/01_cleaned_data/negociacao_fiis.xlsx"
-    div_url = "https://raw.githubusercontent.com/Luishv551/Python_General/main/case-multiestrategia/dados/01_cleaned_data/dividendos_fiis.xlsx"
+    neg_url = "https://github.com/Luishv551/Python_General/raw/main/case-multiestrategia/dados/01_cleaned_data/negociacao_fiis.xlsx"
+    div_url = "https://github.com/Luishv551/Python_General/raw/main/case-multiestrategia/dados/01_cleaned_data/dividendos_fiis.xlsx"
     
     # Função para baixar e ler os arquivos
     def download_excel(url):
