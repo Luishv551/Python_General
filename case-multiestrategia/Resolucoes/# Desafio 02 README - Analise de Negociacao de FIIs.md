@@ -57,6 +57,18 @@ max_daily_date, max_daily_volume = encontrar_maior_volume(df_negociacao)
 print(f"Dia com maior volume: {max_daily_date}")
 ```
 
+### Funcionalidade 4: Calcular volume mensal do IFIX
+```python
+df_ifix = carregar_dados_ifix()
+monthly_ifix_volume = calcular_volume_ifix_por_mes(df_negociacao, df_ifix)
+```
+
+### Funcionalidade 5: Calcular percentual do IFIX no dia de maior volume
+```python
+ifix_percentage = calcular_percentual_ifix(df_negociacao, df_ifix, max_daily_date, max_daily_volume)
+print(f"Percentual do IFIX: {ifix_percentage:.2f}%")
+```
+
 ## Resultados Esperados
 - Nome do FII com maior volume negociado em um dia.
 - Data e volume negociado.
